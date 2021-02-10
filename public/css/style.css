@@ -1,0 +1,185 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.featureproduct h2{
+	color: #1c1c1c;
+	font-weight: 700;
+	text-align: center;
+  position: relative;
+}
+.featureproduct h2:after {
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  right: 0;
+  height: 4px;
+  width: 80px;
+  background: #7fad39;
+  content: "";
+	margin: 0 auto;
+}
+
+
+.featureitem{
+    margin-bottom: 50px;
+    display: inline-table;
+    width: 200px;
+    margin-left: 12px;
+  }
+
+.featureitem_pic{
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+    background-position: center center;
+}
+  .featureitem_pic img{
+      width: 100%;
+      height: 230px;
+      opacity: 1;
+  }
+  .featureitem_pic_home{
+    height: 130px;
+    position: relative;
+    overflow: hidden;
+    background-position: center center;
+  }
+  .featureitem_pic_home img{
+    width: 100%;
+      height: 100%;
+      opacity: 1;
+  }
+
+  .add_cart ul li{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .table_content_item img{
+    width: 80px;
+    margin-right: 20px;
+  }
+  .table_content_item{
+    align-items: center;
+    display: flex;
+  }
+  .table_content{
+    align-items: center;
+  }
+
+  .add_product{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .admin_order{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .show_cart{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .featureitem_text{
+    margin-top: 10px;
+  }
+
+  .featureitem_text a{
+    text-decoration: none;
+    color: green;
+  }
+
+  .home_head{
+    margin-bottom: 20px;  
+  }
+
+  .main_dash{
+    padding: 20px;
+  }
+
+  .order_form{
+    margin-top: 20px;
+    width: 60%;
+  }
+
+  .order_data{
+    display: none;
+  }
+
+  .show_order_data{
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .detail{
+    display: flex;
+  }
+  .detail_image{
+    width: 50%;
+  }
+
+  .detail_image img{
+    width: 90%;
+
+  }
+
+  .detail_info{
+    width: 50%;
+    margin-left: 10px;
+  }
+  .detail_info ul li{
+    list-style: none;
+    font-size: 16px;
+  }
+
+  .cart_color{
+    color: black;
+  }
+
+  .rate{
+    margin-top: 20px;
+    width: 50%;
+  }
+
+  .rate_btn{
+    width: 15%;
+  }
+
+  .compare{
+    display: flex;
+  }
+
+  .first{
+    width: 50%;
+    margin-right: 20px;
+  }
+
+  .image{
+   text-align: center;
+  }
+
+  .image img{
+    width: 450px;
+    height:450px;
+  }
+
+  .description{
+    margin-top: 20px;
+    padding-left: 100px;
+  }
+
+  .compare_btn{
+    text-align: center;
+  }
